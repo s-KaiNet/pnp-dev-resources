@@ -1,13 +1,35 @@
-site_name: PnP Docs
+site_name: PnP developer resources - WIP
 nav:
   - Home: index.md
-  - About: about.md
+  - .NET:
+      - PnP-Sites-Core: PnP-Sites-Core.md
+  - JavaScript:
+      - PnPjs: PnPjs.md
+  - Community calls: 
+      - 'Community calls.md'
+theme:
+  name: 'material'
+  favicon: 'img/favicon.ico'
+  palette:
+    primary: 'indigo'
+  feature:
+    tabs: true
 markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
   - toc:
       permalink: true
-theme: 
-  name: 'material'
-  favicon: 'img/favicon.ico'
+plugins:
+  - search
+  - markdownextradata
+extra:
+  social:
+    - type: 'twitter'
+      link: 'https://twitter.com/officedevpnp'
+    - type: 'youtube'
+      link: 'http://aka.ms/sppnp-videos'
+    - type: 'link'
+      link: 'https://aka.ms/sppnp'
+    - type: 'facebook'
+      link: 'https://www.facebook.com/OfficeDevPnP/'

@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# PnP developer resources
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## What is PnP?
 
-## Commands
+> The SharePoint Development Community (also known as the SharePoint PnP community) is an open-source initiative coordinated by SharePoint engineering. This community controls SharePoint development documentation, samples, reusable controls, and other relevant open-source initiatives related to SharePoint development.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+## What will I find here?
+The list of useful libraries and resources for SharePoint and Office 365 developer and provided by PnP team. 
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Sharing is
+Caring!
