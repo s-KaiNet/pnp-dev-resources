@@ -1,0 +1,13 @@
+site_name: PnP Docs
+nav:
+  - Home: index.md
+  - About: about.md
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+theme: 
+  name: 'material'
+  favicon: 'img/favicon.ico'
