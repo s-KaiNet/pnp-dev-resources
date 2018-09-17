@@ -1,12 +1,34 @@
 site_name: PnP developer resources - WIP
 nav:
   - Home: index.md
-  - .NET:
-      - PnP-Sites-Core: PnP-Sites-Core.md
-  - JavaScript:
-      - PnPjs: PnPjs.md
+  - Libraries:
+    - .NET:
+        - PnP-Sites-Core: PnP-Sites-Core.md
+    - JavaScript:
+        - PnPjs: PnPjs.md
+  - SPFx:
+    - Extensions Samples & Tutorial Materials: sp-dev-fx-extensions.md
+    - Client-Side Web Part Samples & Tutorial Materials: sp-dev-fx-webparts.md 
+    - Reusable React controls: Reusable-React-controls.md
+    - Reusable property pane controls: Reusable-property-pane-controls.md
+    - PnP SPFx Yeoman generator: generator-spfx.md
+  - Tools:
+    - Office 365 CLI: Office-365-CLI.md
+    - PnP PowerShell: PnP-PowerShell.md
+    - PnP Tools: PnP-Tools.md
+  - Samples: 
+    - SharePoint code samples for add-ins, webhooks and other APIs: sp-dev-samples.md
+    - SharePoint Site Script samples: sp-dev-site-scripts.md
+    - SharePoint List Formatting Samples: sp-dev-list-formatting.md
+    - PnP Community Solutions: sp-dev-solutions.md
   - Community calls: 
-      - 'Community calls.md'
+    - Community-calls.md
+  - Other:
+    - SharePoint Framework Build and Deploy Practices: sp-dev-build-extensions.md
+    - SharePoint Starter Kit: sp-starter-kit.md
+    - PnP Provisioning Schema: PnP-Provisioning-Schema.md
+    - PnP Partner Pack: PnP-Partner-Pack.md
+  
 theme:
   name: 'material'
   favicon: 'img/favicon.ico'
@@ -14,6 +36,8 @@ theme:
     primary: 'indigo'
   feature:
     tabs: true
+extra_css:
+  - 'css/extra.css'
 markdown_extensions:
   - admonition
   - codehilite:
