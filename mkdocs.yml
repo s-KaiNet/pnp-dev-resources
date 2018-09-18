@@ -1,11 +1,9 @@
-site_name: PnP developer resources - WIP
+site_name: PnP developer resources
 nav:
   - Home: index.md
   - Libraries:
-    - .NET:
-        - PnP-Sites-Core: PnP-Sites-Core.md
-    - JavaScript:
-        - PnPjs: PnPjs.md
+      - PnP-Sites-Core: PnP-Sites-Core.md
+      - PnPjs: PnPjs.md
   - SPFx:
     - Extensions Samples & Tutorial Materials: sp-dev-fx-extensions.md
     - Client-Side Web Part Samples & Tutorial Materials: sp-dev-fx-webparts.md 
