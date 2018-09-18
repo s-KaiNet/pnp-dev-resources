@@ -1,3 +1,7 @@
 .links table td:first-child {
   font-weight: bold;
 }
+
+.md-source__repository ul.md-source__facts{
+  display: none;
+}
